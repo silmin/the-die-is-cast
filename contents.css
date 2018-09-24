@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Futura, "Century Gothic", "helvetica neue", arial, sans-serif !important;
     font-style: italic;
 }
@@ -34,8 +34,5 @@
     margin-top: 20px;
     color: #fff;
     font-size: 20px;
-}
-
-.contents_inner p span {
-    border-bottom: 1px solid #fff;
+    font-family: 'Titillium Web', sans-serif;
 }
