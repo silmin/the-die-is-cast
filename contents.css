@@ -8,12 +8,6 @@
     margin: 0;
     background: #2c2c2c;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.8);
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-delay: .3s;
-    transition-delay: .3s;
-    -webkit-transition-duration: .5s;
-    transition-duration: .5s;
 }
 
 .contents_inner {
