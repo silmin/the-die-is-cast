@@ -19,6 +19,7 @@
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    z-index: 2;
 }
 
 .contents_inner h1 {
