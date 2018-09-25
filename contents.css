@@ -8,6 +8,12 @@
     margin: 0;
     background: #2c2c2c;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.8);
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
 }
 
 .contents_inner {
@@ -52,6 +58,19 @@
     animation: castDie2 10s linear 0s infinite;
 }
 
+.chip {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    z-index: 1;
+    animation: showChip 0.5s cubic-bezier(0, 1.5, 0.7, 1.01) forwards;
+}
+
 @keyframes castDie1 {
     0% { transform: translateY(150vh) rotate(0deg); }
     25% { transform: translateY(100vh) rotate(-500deg); }
@@ -59,10 +78,16 @@
     75% { transform: translateY(0vh) rotate(-1500deg); }
     100% { transform: translateY(-50vh) rotate(-2000deg); }
 }
+
 @keyframes castDie2 {
     0% { transform: translateY(-70vh) rotate(0deg); }
     25% { transform: translateY(-20vh) rotate(500deg); }
     50% { transform: translateY(30vh) rotate(1000deg); }
     75% { transform: translateY(80vh) rotate(1500deg); }
     100% { transform: translateY(130vh) rotate(2000deg); }
+}
+
+@keyframes showChip {
+    from { transform: scale(0, 0); }
+    to { transform: scale(1, 1); }
 }
