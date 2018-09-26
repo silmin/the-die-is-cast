@@ -8,6 +8,7 @@
     margin: 0;
     background: #2c2c2c;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.8);
+    overflow: hidden;
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-delay: .3s;
@@ -42,18 +43,18 @@
 
 .die1 {
     position: fixed;
-    left: 20%;
-    width: 20%;
-    height: 20%;
+    left: 15%;
+    width: 30%;
+    height: 30%;
     z-index: 1;
     animation: castDie1 10s linear 0s infinite;
 }
 
 .die2 {
     position: fixed;
-    right: 20%;
-    width: 20%;
-    height: 20%;
+    right: 15%;
+    width: 30%;
+    height: 30%;
     z-index: 1;
     animation: castDie2 10s linear 0s infinite;
 }
@@ -69,6 +70,28 @@
     height: 70%;
     z-index: 1;
     animation: showChip 0.5s cubic-bezier(0, 1.5, 0.7, 1.01) forwards;
+}
+
+.roulette1 {
+    position: fixed;
+    top: -50vh;
+    left: -50vw;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: 1;
+    animation: rollRoulette 10s linear 0s infinite;
+}
+
+.roulette2 {
+    position: fixed;
+    right: -50vw;
+    bottom: -50vh;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: 1;
+    animation: rollRoulette 10s linear 0s infinite;
 }
 
 @keyframes castDie1 {
@@ -90,4 +113,9 @@
 @keyframes showChip {
     from { transform: scale(0, 0); }
     to { transform: scale(1, 1); }
+}
+
+@keyframes rollRoulette {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
