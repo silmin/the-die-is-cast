@@ -7,7 +7,7 @@
     width: 25vw;
     height: 100%;
     padding: 30vh 0;
-    background: #1e87ff;
+    background: #607d8b;
     -webkit-transition: all .5s 0s ease;
     transition: all .5s 0s ease;
     transform: translateX(-25vw);
@@ -22,16 +22,21 @@
 
 .drawer-menu li a {
     display: block;
-    height: 8vh;
-    line-height: 8vh;
-    font-size: 17px;
-    color: #fff;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    -webkit-transition: all .8s;
-    transition: all .8s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
 }
 
 .drawer-menu li a:hover {
-    color: #1a1e24;
+    /*
     background: #fff;
+    */
+    color: #ffffff;
+    letter-spacing: 1vw;
+    font-weight: 600;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
 }

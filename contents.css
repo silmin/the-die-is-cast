@@ -37,7 +37,7 @@
 .contents_inner p {
     margin-top: 20px;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -104,11 +104,11 @@
 }
 
 @keyframes castDie2 {
-    0% { transform: translateY(-70vh) rotate(0deg); }
-    25% { transform: translateY(-20vh) rotate(500deg); }
-    50% { transform: translateY(30vh) rotate(1000deg); }
-    75% { transform: translateY(80vh) rotate(1500deg); }
-    100% { transform: translateY(130vh) rotate(2000deg); }
+    0% { transform: translateY(-80vh) rotate(0deg); }
+    25% { transform: translateY(-30vh) rotate(500deg); }
+    50% { transform: translateY(20vh) rotate(1000deg); }
+    75% { transform: translateY(70vh) rotate(1500deg); }
+    100% { transform: translateY(120vh) rotate(2000deg); }
 }
 
 @keyframes showChip {
