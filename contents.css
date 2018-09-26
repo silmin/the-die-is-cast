@@ -68,8 +68,9 @@
     margin: auto;
     width: 70%;
     height: 70%;
+    opacity: 0;
     z-index: 1;
-    animation: showChip 0.5s cubic-bezier(0, 1.5, 0.7, 1.01) forwards;
+    animation: showChip 0.5s cubic-bezier(0, 1.5, 0.7, 1.01) 0.5s forwards;
 }
 
 .roulette1 {
@@ -111,8 +112,14 @@
 }
 
 @keyframes showChip {
-    from { transform: scale(0, 0); }
-    to { transform: scale(1, 1); }
+    from { 
+        transform: scale(0, 0);
+        opacity: 0;
+    }
+    to { 
+        transform: scale(1, 1);
+        opacity: 1;
+     }
 }
 
 @keyframes rollRoulette {
