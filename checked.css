@@ -12,9 +12,9 @@
 .check:checked ~ .contents {
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-    -webkit-transform: translatex(-25vw);
-    -ms-transform: translatex(-25vw);
-    transform: translatex(-25vw);
+    -webkit-transform: translatex(-350px);
+    -ms-transform: translatex(-350px);
+    transform: translatex(-350px);
 }
 
 .check:checked ~ .menu-btn .menu-btn_text {

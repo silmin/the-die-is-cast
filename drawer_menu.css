@@ -4,9 +4,9 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 25vw;
+    width: 350px;
     height: 100%;
-    padding: 30vh 0;
+    padding: 20vh 0;
     background: #607d8b;
     -webkit-transition: all .5s 0s ease;
     transition: all .5s 0s ease;
@@ -22,9 +22,9 @@
 
 .drawer-menu li a {
     display: block;
-    height: 10vh;
     line-height: 10vh;
-    font-size: 25px;
+    font-size: 30px;
+    margin: 5vh;
     color: rgb(0, 0, 0);
     text-decoration: none;
     -webkit-transition: all .2s;
