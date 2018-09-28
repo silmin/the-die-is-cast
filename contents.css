@@ -41,6 +41,37 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+.social {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.social a {
+    display: table-cell;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #CFD8DC;
+    border-radius: 50%;
+}
+
+.icon-style {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #252525;
+    font-size: 1.7em;
+    vertical-align: middle;
+    text-align: center;
+}
+
 .die1 {
     position: fixed;
     left: 15%;
