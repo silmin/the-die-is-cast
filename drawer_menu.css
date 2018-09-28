@@ -11,7 +11,7 @@
     background: #607d8b;
     -webkit-transition: all .5s 0s ease;
     transition: all .5s 0s ease;
-    transform: translateX(-25vw);
+    transform: translateX(-350px);
     opacity: 0;
     z-index: -1;
 }
@@ -25,7 +25,7 @@
     display: block;
     line-height: 10vh;
     font-size: 30px;
-    margin: 5vh;
+    margin: 5vh 0;
     color: rgb(0, 0, 0);
     text-decoration: none;
     -webkit-transition: all .2s;
@@ -63,7 +63,7 @@
         display: block;
         line-height: 10vh;
         font-size: 30px;
-        margin: 5vh;
+        margin: 5vh 0;
         color: rgb(0, 0, 0);
         text-decoration: none;
         -webkit-transition: all .2s;

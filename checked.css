@@ -1,6 +1,6 @@
 /* checked */
 
-.check:checked~.drawer-menu {
+.check:checked ~ .drawer-menu {
     -webkit-transition-delay: .3s;
     transition-delay: .3s;
     -webkit-transform: none;
@@ -10,7 +10,7 @@
     z-index: auto;
 }
 
-.check:checked~.contents {
+.check:checked ~ .contents {
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
     -webkit-transform: translatex(-350px);
@@ -18,23 +18,23 @@
     transform: translatex(-350px);
 }
 
-.check:checked~.menu-btn .menu-btn_text {
+.check:checked ~ .menu-btn .menu-btn_text {
     visibility: hidden;
     opacity: 0;
 }
 
-.check:checked~.menu-btn .bar.top {
+.check:checked ~ .menu-btn .bar.top {
     width: 56px;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
-.check:checked~.menu-btn .bar.middle {
+.check:checked ~ .menu-btn .bar.middle {
     opacity: 0;
 }
 
-.check:checked~.menu-btn .bar.bottom {
+.check:checked ~ .menu-btn .bar.bottom {
     width: 56px;
     top: 40px;
     -webkit-transform: rotate(-45deg);
@@ -42,7 +42,7 @@
     transform: rotate(-45deg);
 }
 
-.check:checked~.close-menu {
+.check:checked ~ .close-menu {
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
     -webkit-transition-delay: .3s;
@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 600px) {
-    .check:checked~.drawer-menu {
+    .check:checked ~ .drawer-menu {
         -webkit-transition-delay: .3s;
         transition-delay: .3s;
         -webkit-transform: none;
@@ -62,40 +62,31 @@
         opacity: 1;
         z-index: auto;
     }
-    .check:checked~.contents {
+    .check:checked ~ .contents {
         -webkit-transition-delay: 0s;
         transition-delay: 0s;
         -webkit-transform: translatex(-100%);
         -ms-transform: translatex(-100%);
         transform: translatex(-100%);
     }
-    .check:checked~.menu-btn .menu-btn_text {
+    .check:checked ~ .menu-btn .menu-btn_text {
         visibility: hidden;
         opacity: 0;
     }
-    .check:checked~.menu-btn .bar.top {
+    .check:checked ~ .menu-btn .bar.top {
         width: 56px;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
     }
-    .check:checked~.menu-btn .bar.middle {
+    .check:checked ~ .menu-btn .bar.middle {
         opacity: 0;
     }
-    .check:checked~.menu-btn .bar.bottom {
+    .check:checked ~ .menu-btn .bar.bottom {
         width: 56px;
         top: 40px;
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
-    }
-    .check:checked~.close-menu {
-        -webkit-transition-duration: 1s;
-        transition-duration: 1s;
-        -webkit-transition-delay: .3s;
-        transition-delay: .3s;
-        visibility: visible;
-        opacity: 1;
-        z-index: 3;
     }
 }
