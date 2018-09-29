@@ -24,7 +24,8 @@
 .drawer-menu li a {
     display: block;
     line-height: 10vh;
-    font-size: 30px;
+    font-size: 35px;
+    font-family: 'Krub', sans-serif;
     margin: 5vh 0;
     color: rgb(0, 0, 0);
     text-decoration: none;
