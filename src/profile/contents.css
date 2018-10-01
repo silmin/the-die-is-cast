@@ -1,7 +1,7 @@
 .contents {
     /*display: block;*/
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     padding: 0;
     margin: 0;
     background: #2c2c2c;
@@ -10,6 +10,7 @@
 
 .contents_title {
     text-align: center;
+    padding: 30px;
 }
 
 .contents_title h1 {
@@ -20,9 +21,41 @@
 }
 
 .contents_title p {
-
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
 }
 
 .contents_main {
+    text-align: center;
+    overflow: hidden;
+}
 
+.my_info {
+    margin: 100px auto;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(255, 209, 152);
+}
+
+.my_hobby {
+    margin: 100px auto;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(68, 255, 115);
+}
+
+.my_favorite {
+    margin: 100px auto;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(44, 184, 240);
+}
+
+.my_skill {
+    margin: 100px auto;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(218, 78, 253);
 }
