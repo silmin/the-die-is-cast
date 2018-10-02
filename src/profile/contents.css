@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     background: #2c2c2c;
- 
 }
 
 .contents_title {
@@ -15,14 +14,13 @@
 
 .contents_title h1 {
     margin: 0;
-    padding: 0;
+    margin-top: 50px;
     color: #fff;
     font-size: 50px;
 }
 
 .contents_title p {
     margin: 0;
-    padding: 0;
     color: #fff;
     font-size: 20px;
 }
@@ -30,6 +28,26 @@
 .contents_main {
     text-align: center;
     overflow: hidden;
+}
+
+.icon_img {
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.my_name h2 {
+    font-size: 60px;
+    margin: 0;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.my_name h3 {
+    font-size: 30px;
+    margin: 0;
+    color: #888;
 }
 
 .my_info {
