@@ -55,26 +55,34 @@
     margin: 100px auto;
     width: 60%;
     height: 500px;
-    background-color: rgb(255, 209, 152);
+    border: 10px outset #888;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
 }
 
 .my_hobby {
     margin: 100px auto;
     width: 60%;
     height: 500px;
-    background-color: rgb(68, 255, 115);
+    border: 10px outset #888;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
 }
 
 .my_favorite {
     margin: 100px auto;
     width: 60%;
     height: 500px;
-    background-color: rgb(44, 184, 240);
+    border: 10px outset #888;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
 }
 
 .my_skill {
     margin: 100px auto;
     width: 60%;
     height: 500px;
-    background-color: rgb(218, 78, 253);
+    border: 10px outset #888;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
 }
