@@ -59,7 +59,7 @@
     color: #fff;
 }
 
-.my_name span {
+.my_name h2 span {
     color: rgb(31, 128, 255);
 }
 
@@ -67,6 +67,10 @@
     font-size: 30px;
     margin: 0;
     color: #888;
+}
+
+.my_name h3 span {
+    color: rgb(48, 110, 192);
 }
 
 .my_about {
