@@ -59,6 +59,10 @@
     color: #fff;
 }
 
+.my_name span {
+    color: rgb(31, 128, 255);
+}
+
 .my_name h3 {
     font-size: 30px;
     margin: 0;
