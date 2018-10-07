@@ -20,8 +20,9 @@
     margin-top: 50px;
     color: #fff;
     font-size: 50px;
-    font-family: 'Krub', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     z-index: 2;
+    letter-spacing: 5px;
 }
 
 .contents_title p {
@@ -54,6 +55,7 @@
 
 .my_name h2 {
     font-size: 60px;
+    font-family: 'Krub', sans-serif;
     margin: 0;
     margin-top: 20px;
     color: #fff;
@@ -65,8 +67,11 @@
 
 .my_name h3 {
     font-size: 30px;
+    font-family: 'Krub', sans-serif;
+    letter-spacing: 2px;
     margin: 0;
     color: #888;
+    
 }
 
 .my_name h3 span {
@@ -100,10 +105,10 @@
     background-color: rgb(70, 70, 70);
 }
 
-.my_about h2,
-.my_tweet h2 {
+.my_about h2 {
     color: rgb(58, 171, 210);
     font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
     border-bottom: 3px dashed #666;
     padding: 0 0 25 0;
 }
@@ -111,6 +116,7 @@
 .my_skill h2 {
     color: rgb(223, 86, 86);
     font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
     border-bottom: 3px dashed #666;
     padding: 0 0 25 0;
 }
