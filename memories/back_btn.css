@@ -1,0 +1,36 @@
+.back-btn {
+    position: fixed;
+    display: block;
+    top: 40px;
+    right: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.bar {
+    position: absolute;
+    display: block;
+    width: 57px;
+    height: 1px;
+    background: #fff;
+}
+
+.bar.top {
+    transform: rotate(45deg);
+    transform-origin: left top;
+    transition: all .5s;
+}
+.bar.bottom {
+    top: 40px;
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+    transition: all .5s;
+}
+
+.back-btn:hover .bar {
+    background: #999;
+}
