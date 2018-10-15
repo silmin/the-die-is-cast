@@ -40,6 +40,23 @@
     z-index: 2;
 }
 
+.content_parent {
+    margin: 100px 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content_child {
+    float: left;
+    display: table;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(10, 196, 10);
+    text-align: center;
+    vertical-align: middle;
+}
+
 .roulette1 {
     position: fixed;
     top: -50vh;
