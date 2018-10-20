@@ -35,26 +35,33 @@
 
 .contents_main {
     position: relative;
-    text-align: center;
     overflow: hidden;
     z-index: 2;
+    justify-content: center;
+    background-color: blueviolet;
 }
 
-.content_parent {
-    margin: 100px 100px;
-    text-align: center;
+.contents_main ul {
+    margin: 100px;
+    list-style-type: none;
+    padding-left: 0px;
     overflow: hidden;
+    text-align: center;
+    background-color: aqua;
 }
 
-.content_child {
-    float: left;
-    display: table;
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
+.contents_main li {
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    margin: 30px;
     background: rgb(10, 196, 10);
     text-align: center;
     vertical-align: middle;
+}
+
+.contents_inner {
+    margin: 20px;
 }
 
 .roulette1 {
