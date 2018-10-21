@@ -58,6 +58,18 @@
     margin: 30px;
     text-align: center;
     vertical-align: middle;
+    animation: showContent .5s ease forwards;
+}
+
+@keyframes showContent {
+    from { 
+        transform: scale(.5);
+        opacity: 0;
+    }
+    to { 
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .contents_inner {
