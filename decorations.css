@@ -1,0 +1,75 @@
+/* decorations */
+
+.decorations{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.die1 {
+    position: fixed;
+    left: 15%;
+    width: 30%;
+    height: 30%;
+    z-index: 10;
+    animation: castDie1 10s linear 0s infinite;
+}
+
+.die2 {
+    position: fixed;
+    right: 15%;
+    width: 30%;
+    height: 30%;
+    z-index: 10;
+    animation: castDie2 10s linear 0s infinite;
+}
+
+.roulette1 {
+    position: fixed;
+    top: -50vh;
+    left: -50vw;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: 1;
+    animation: rollRoulette 10s linear 0s infinite;
+}
+
+.roulette2 {
+    position: fixed;
+    right: -50vw;
+    bottom: -50vh;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: 1;
+    animation: rollRoulette 10s linear 0s infinite;
+}
+
+@keyframes castDie1 {
+    /* 0% { transform: translateY(150vh) rotate(0deg); }
+    25% { transform: translateY(100vh) rotate(-500deg); }
+    50% { transform: translateY(50vh) rotate(-1000deg); }
+    75% { transform: translateY(0vh) rotate(-1500deg); }
+    100% { transform: translateY(-50vh) rotate(-2000deg); } */
+    from { transform: translateY(150vh) rotate(0deg); }
+    to { transform: translateY(-50vh) rotate(-2000deg); }
+}
+
+@keyframes castDie2 {
+    /* 0% { transform: translateY(-80vh) rotate(0deg); }
+    25% { transform: translateY(-30vh) rotate(500deg); }
+    50% { transform: translateY(20vh) rotate(1000deg); }
+    75% { transform: translateY(70vh) rotate(1500deg); }
+    100% { transform: translateY(120vh) rotate(2000deg); } */
+    from { transform: translateY(-80vh) rotate(0deg); }
+    to { transform: translateY(120vh) rotate(2000deg); }
+}
+
+@keyframes rollRoulette {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

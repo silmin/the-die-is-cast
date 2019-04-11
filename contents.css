@@ -1,13 +1,11 @@
 /* contents */
 
 .contents {
-    display: table;
+    display: block;
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
-    background: #2c2c2c;
-    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.8);
     overflow: hidden;
     -webkit-transition-property: all;
     transition-property: all;
@@ -17,28 +15,19 @@
     transition-duration: .5s;
 }
 
-.contents_inner {
-    position: relative;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    z-index: 2;
-}
-
-.contents_inner h1 {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 50px;
-    font-family: 'Titillium Web', sans-serif;
-    font-style: italic;
-}
-
-.contents_inner p {
-    margin-top: 20px;
-    color: #fff;
-    font-size: 30px;
-    font-family: 'Titillium Web', sans-serif;
+.topimage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    opacity: 0;
+    z-index: 1;
+    animation: showTop 0.5s cubic-bezier(0, 1.5, 0.7, 1.01) 0.5s forwards;
+  
 }
 
 .social {
@@ -79,60 +68,6 @@
     text-align: center;
 }
 
-.die1 {
-    position: fixed;
-    left: 15%;
-    width: 30%;
-    height: 30%;
-    z-index: 1;
-    animation: castDie1 10s linear 0s infinite;
-}
-
-.die2 {
-    position: fixed;
-    right: 15%;
-    width: 30%;
-    height: 30%;
-    z-index: 1;
-    animation: castDie2 10s linear 0s infinite;
-}
-
-.chip {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    width: 70%;
-    height: 70%;
-    opacity: 0;
-    z-index: 1;
-    animation: showChip 0.5s cubic-bezier(0, 1.5, 0.7, 1.01) 0.5s forwards;
-}
-
-.roulette1 {
-    position: fixed;
-    top: -50vh;
-    left: -50vw;
-    width: 100vw;
-    height: 100vh;
-    opacity: 0.3;
-    z-index: 1;
-    animation: rollRoulette 10s linear 0s infinite;
-}
-
-.roulette2 {
-    position: fixed;
-    right: -50vw;
-    bottom: -50vh;
-    width: 100vw;
-    height: 100vh;
-    opacity: 0.3;
-    z-index: 1;
-    animation: rollRoulette 10s linear 0s infinite;
-}
-
 @keyframes showSocial {
     from { 
         transform: scale(0);
@@ -144,23 +79,7 @@
     }
 }
 
-@keyframes castDie1 {
-    0% { transform: translateY(150vh) rotate(0deg); }
-    25% { transform: translateY(100vh) rotate(-500deg); }
-    50% { transform: translateY(50vh) rotate(-1000deg); }
-    75% { transform: translateY(0vh) rotate(-1500deg); }
-    100% { transform: translateY(-50vh) rotate(-2000deg); }
-}
-
-@keyframes castDie2 {
-    0% { transform: translateY(-80vh) rotate(0deg); }
-    25% { transform: translateY(-30vh) rotate(500deg); }
-    50% { transform: translateY(20vh) rotate(1000deg); }
-    75% { transform: translateY(70vh) rotate(1500deg); }
-    100% { transform: translateY(120vh) rotate(2000deg); }
-}
-
-@keyframes showChip {
+@keyframes showTop {
     from { 
         transform: scale(0);
         opacity: 0;
@@ -169,9 +88,4 @@
         transform: scale(1);
         opacity: 1;
     }
-}
-
-@keyframes rollRoulette {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
 }
