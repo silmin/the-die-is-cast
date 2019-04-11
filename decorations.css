@@ -14,7 +14,7 @@
     left: 15%;
     width: 30%;
     height: 30%;
-    z-index: 10;
+    opacity: 0.3;
     animation: castDie1 10s linear 0s infinite;
 }
 
@@ -23,7 +23,7 @@
     right: 15%;
     width: 30%;
     height: 30%;
-    z-index: 10;
+    opacity: 0.3;
     animation: castDie2 10s linear 0s infinite;
 }
 
@@ -34,7 +34,6 @@
     width: 100vw;
     height: 100vh;
     opacity: 0.3;
-    z-index: 1;
     animation: rollRoulette 10s linear 0s infinite;
 }
 
@@ -45,7 +44,6 @@
     width: 100vw;
     height: 100vh;
     opacity: 0.3;
-    z-index: 1;
     animation: rollRoulette 10s linear 0s infinite;
 }
 
