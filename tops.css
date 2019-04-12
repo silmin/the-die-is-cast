@@ -21,7 +21,6 @@
     opacity: 0;
     z-index: 1;
     animation: showTop 0.5s cubic-bezier(0, 1.5, 0.7, 1.01) 0.5s forwards;
-  
 }
 
 .social {
@@ -37,14 +36,13 @@
 
 .social a {
     display: table-cell;
-    margin: 0 15px;
     width: 40px;
     height: 40px;
     line-height: 40px;
     background-color: #CFD8DC;
     border-radius: 50%;
     opacity: 0;
-    animation: showSocial .3s 1.2s forwards;
+    animation: showSocial .3s 1.5s forwards;
 }
 
 .social a:hover {
@@ -62,22 +60,22 @@
 }
 
 @keyframes showSocial {
-    from { 
-        transform: scale(0);
+    from {
+        margin: 0 0px;
         opacity: 0;
     }
-    to { 
-        transform: scale(1);
+    to {
+        margin: 0 30px;
         opacity: 1;
     }
 }
 
 @keyframes showTop {
-    from { 
+    from {
         transform: scale(0);
         opacity: 0;
     }
-    to { 
+    to {
         transform: scale(1);
         opacity: 1;
     }
