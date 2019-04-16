@@ -48,21 +48,11 @@
 }
 
 @keyframes castDie1 {
-    /* 0% { transform: translateY(150vh) rotate(0deg); }
-    25% { transform: translateY(100vh) rotate(-500deg); }
-    50% { transform: translateY(50vh) rotate(-1000deg); }
-    75% { transform: translateY(0vh) rotate(-1500deg); }
-    100% { transform: translateY(-50vh) rotate(-2000deg); } */
     from { transform: translateY(150vh) rotate(0deg); }
     to { transform: translateY(-50vh) rotate(-2000deg); }
 }
 
 @keyframes castDie2 {
-    /* 0% { transform: translateY(-80vh) rotate(0deg); }
-    25% { transform: translateY(-30vh) rotate(500deg); }
-    50% { transform: translateY(20vh) rotate(1000deg); }
-    75% { transform: translateY(70vh) rotate(1500deg); }
-    100% { transform: translateY(120vh) rotate(2000deg); } */
     from { transform: translateY(-80vh) rotate(0deg); }
     to { transform: translateY(120vh) rotate(2000deg); }
 }
